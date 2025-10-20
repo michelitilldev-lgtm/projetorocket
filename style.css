@@ -46,6 +46,11 @@ body * {
 }
 #profile img {
   width: 112px;
+  height: 112px; /* mantém o tamanho quadrado */
+  border-radius: 50%; /* arredonda a imagem (vira círculo) */
+  object-fit: cover; /* corta o excesso da imagem sem deformar */
+  display: block; /* garante centralização */
+  margin: 0 auto; /* centraliza horizontalmente */
 }
 
 #profile p {
